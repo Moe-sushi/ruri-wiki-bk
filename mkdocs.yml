@@ -25,12 +25,17 @@ nav:
   - "Home|主页": index.md
   - English:
     - Home: en/index.md
-    - 1: en/1.md
+    - Quick Start: en/quickstart.md
+    - Container Security: en/container-security.md
   - 简体中文:
     - 主页: zh/index.md
-    - 1: zh/1.md
+    - 快速开始: zh/quickstart.md
+    - 容器安全: zh/container-security.md
 markdown_extensions:
   - admonition
+  - pymdownx.tilde
+  - pymdownx.superfences
+  - def_list
   - toc:
       permalink: True
 extra:
