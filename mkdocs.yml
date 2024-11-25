@@ -1,0 +1,43 @@
+site_name: ruri offcial wiki
+site_url: https://wiki.crack.moe/ruri
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  logo: /ruri/assets/logo.png
+  favicon: /ruri/assets/favicon.png
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: custom
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: custom
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - "Home|主页": index.md
+  - English:
+    - Home: en/index.md
+    - 1: en/1.md
+  - 简体中文:
+    - 主页: zh/index.md
+    - 1: zh/1.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: True
+extra:
+  alternate:
+    - name: English
+      link: /ruri/en/
+      lang: en
+    - name: 简体中文
+      link: /ruri/zh/
+      lang: zh
