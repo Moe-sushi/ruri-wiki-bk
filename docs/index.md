@@ -1,5 +1,5 @@
-# Welcome to ruri official wiki
 ![](https://github.com/Moe-hacker/ruri/raw/main/logo/logo.png)      
+# Welcome to ruri official wiki      
 ## Choose your language:
 
 - [English](https://wiki.crack.moe/ruri/en/)      
