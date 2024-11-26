@@ -25,6 +25,8 @@ ruri内置了一份黑名单模式seccomp配置，你可以使用`-s`选项来�
 ### 自己编写Seccomp配置：
 ruri内置的seccomp配置足以应对大多威胁，但如果你需要更激进的策略，可以手动编辑src/seccomp.c来写入自己的配置文件。      
 ## 激进：
+### Hidepid:
+ruri支持为/proc设置hidepid选项，使用`-i 1/2` 来开启。     
 ### 开启no_new_privs:
 您可以使用`-n`选项来开启NO_NEW_PRIVS,开启后sudo等程序将无法运行。      
 ### 挂载根目录为只读：

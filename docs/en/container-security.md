@@ -23,6 +23,8 @@ Ruri supports using `-m` option to mount other device/img/dir into container, if
 Ruri has a built-in Seccomp profile, you can enable it by using `-s` option.      
 If this profile does not fit your needs, you can edit src/seccomp.c and write your own Seccomp rules.      
 ## Radical:
+### hidepid:
+Ruri supports mount /proc with hidepid option, use `-i 1/2` to enable it.      
 ### No new privs:
 Ruri supports enable no_new_privs bit by `-n` option, after enabling this, command like `sudo` will be unavailable for common user.      
 ### Mount / as read-only:
