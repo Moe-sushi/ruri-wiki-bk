@@ -26,10 +26,12 @@ nav:
   - English:
     - Home: en/index.md
     - Quick Start: en/quickstart.md
+    - Common Usage: en/common-usage.md
     - Container Security: en/container-security.md
   - 简体中文:
     - 主页: zh/index.md
     - 快速开始: zh/quickstart.md
+    - 日常使用: zh/common-usage.md
     - 容器安全: zh/container-security.md
 markdown_extensions:
   - admonition
