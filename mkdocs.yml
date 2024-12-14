@@ -28,11 +28,13 @@ nav:
     - Quick Start: en/quickstart.md
     - Common Usage: en/common-usage.md
     - Container Security: en/container-security.md
+    - Mounting System Resources: en/mount-resources.md
   - 简体中文:
     - 主页: zh/index.md
     - 快速开始: zh/quickstart.md
     - 日常使用: zh/common-usage.md
     - 容器安全: zh/container-security.md
+    - 挂载系统资源: zh/mount-resources.md
 markdown_extensions:
   - admonition
   - pymdownx.tilde

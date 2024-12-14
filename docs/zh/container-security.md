@@ -2,7 +2,7 @@
 ruri提供一系列安全选项，下面是它们的使用说明：      
 ## 日常：
 ### 使用rootless容器：
-在现代的GNU/Linux上，一般只要配置好/etc/subuid和/etc/subgid，安装uidmap（shadow）包，即可使用rotless容器。      
+在现代的GNU/Linux上，一般只要配置好/etc/subuid和/etc/subgid，安装uidmap（shadow）包，即可使用rootless容器。      
 如果你的设备支持，可以使用`-r`选项来以普通用户运行无特权容器。      
 ### 使用普通用户：
 如果你的设备不支持，你还有一个选项，在容器中创建一个普通用户，并使用`-E username`选项来使用普通用户在容器中运行命令。请确保username在容器的/etc/passwd中有正确记录。      
