@@ -4,6 +4,7 @@
 - [快速开始](https://wiki.crack.moe/ruri/zh/quickstart/)
 - [日常使用](https://wiki.crack.moe/ruri/zh/common-usage)      
 - [容器安全](https://wiki.crack.moe/ruri/zh/container-security/)
+- [挂载系统资源](https://wiki.crack.moe/ruri/zh/mount-resources/)
 
 ## 关于ruri：
 

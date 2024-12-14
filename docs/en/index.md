@@ -4,6 +4,8 @@
 - [Quick start](https://wiki.crack.moe/ruri/en/quickstart/)
 - [Common Usage](https://wiki.crack.moe/ruri/en/common-usage)      
 - [Container Security](https://wiki.crack.moe/ruri/en/container-security/)     
+- [Mounting System Resources](https://wiki.crack.moe/ruri/en/mount-resources/)      
+- [FAQ](https://wiki.crack.moe/ruri/en/faq/)
 
 # About ruri:
 &emsp;ruri is pronounced as `luli`, or you can call it `[瑠璃/琉璃]` ~~(るり)~~ in Chinese or Japanese as well.       
